@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bchr02/node-pre-gyp-github.git"
+    "url": "git+https://github.com/ARyaskov/node-pre-gyp-github.git"
   },
   "files": [
     "bin",
@@ -43,9 +43,14 @@
     "sinon": "13.0.1"
   },
   "author": "Bill Christo",
+  "contributors": [
+    {
+      "name": "Andrei Riaskov",
+      "email": "code@riaskov.com"
+    }],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bchr02/node-pre-gyp-github/issues"
+    "url": "https://github.com/ARyaskov/node-pre-gyp-github/issues"
   },
-  "homepage": "https://github.com/bchr02/node-pre-gyp-github#readme"
+  "homepage": "https://github.com/ARyaskov/node-pre-gyp-github?tab=readme-ov-file#node-pre-gyp-github"
 }

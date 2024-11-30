@@ -1,6 +1,7 @@
-# node-pre-gyp-github
+# node-pre-gyp-github (2024 version)
 
 ##### A node-pre-gyp module which provides the ability to publish to GitHub releases.
+It's a fork of https://github.com/bchr02/node-pre-gyp-github with the latest features.
 
 ## Usage
 
@@ -16,9 +17,9 @@ Instead of ```node-pre-gyp publish``` use **```node-pre-gyp-github publish```**
 ## Install
 
 ```bash
-npm install -g node-pre-gyp-github
+npm install -g @riaskov/node-pre-gyp-github
 # or
-yarn global add node-pre-gyp-github
+yarn global add @riaskov/node-pre-gyp-github
 
 ```
 
@@ -27,8 +28,10 @@ yarn global add node-pre-gyp-github
 This module is intended to be used with node-pre-gyp. Therefore, be sure to configure and install node-pre-gyp first. After having done that, within **```package.json```** update the ```binary``` properties ```host``` and ```remote_path``` so it matches the following format:
 
 ```json
+{
   "host": "https://github.com/[owner]/[repo]/releases/download/",
   "remote_path": "{version}"
+}
 ```
 
 Be sure to replace ```[owner]```, ```[repo]```, with actual values,
